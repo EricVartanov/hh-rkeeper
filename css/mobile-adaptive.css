@@ -46,10 +46,17 @@
     .idc-info p > strong {
         line-height: 110%;
     }
+    .idc-info ul {
+        padding-right: 0px;
+    }
     .idc-info ul li {
         font-size: 14px;
         line-height: 140%;
         padding-left: 17px;
+    }
+
+    .idc-info ul li::before {
+        top: 8px;
     }
 
     /* ******pluses**** */
@@ -63,6 +70,9 @@
 
     .idc-pluses .idc-list__item {
         padding-left: 17px;
+    }
+    .idc-pluses .idc-list__item::before {
+        top: 6px;
     }
     .idc-pluses .idc-arial-18.idc-bold {
         margin-top: 30px;
